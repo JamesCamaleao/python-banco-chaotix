@@ -7,7 +7,7 @@ escolha = input(
     
     """
 
-        Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+        Seja bem-vindo ao banco Chaotix, o que gostaria de fazer hoje?
     
         [1] Depositar
         [2] Sacar
@@ -38,7 +38,7 @@ while True:
                     escolha = input(
         
         """
-            Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+            Seja bem-vindo ao banco Chaotix, o que gostaria de fazer hoje?
         
             [1] Depositar
             [2] Sacar
@@ -51,7 +51,7 @@ while True:
                     break
                 
                 elif voltar_menu == "N":
-                    print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+                    print("Agradecemos por escolher os bancos Chaotix! Volte sempre!")
                     exit()
                 
                 else:
@@ -69,7 +69,7 @@ while True:
                     escolha = input(
         
         """
-            Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+            Seja bem-vindo ao banco Chaotix, o que gostaria de fazer hoje?
         
             [1] Depositar
             [2] Sacar
@@ -82,7 +82,7 @@ while True:
                     break
                 
                 elif voltar_menu == "N":
-                    print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+                    print("Agradecemos por escolher os bancos Chaotix! Volte sempre!")
                     exit()
                 
                 else:
@@ -117,7 +117,7 @@ while True:
                 escolha = input(
     
     """
-        Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+        Seja bem-vindo ao banco Chaotix, o que gostaria de fazer hoje?
     
         [1] Depositar
         [2] Sacar
@@ -130,7 +130,7 @@ while True:
                 break
 
             elif voltar_menu == "N":
-                print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+                print("Agradecemos por escolher os bancos Chaotix! Volte sempre!")
                 exit()
 
             else:
@@ -149,7 +149,7 @@ while True:
                     escolha = input(
         
         """
-            Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+            Seja bem-vindo ao banco Chaotix, o que gostaria de fazer hoje?
         
             [1] Depositar
             [2] Sacar
@@ -161,7 +161,7 @@ while True:
         )
 
                 elif voltar_menu == "N":
-                    print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+                    print("Agradecemos por escolher os bancos Chaotix! Volte sempre!")
                     exit()
                 else:
                     print("Resposta inválida! Tente novamente!")
@@ -181,7 +181,7 @@ while True:
                     escolha = input(
         
         """
-            Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+            Seja bem-vindo ao banco Chaotix, o que gostaria de fazer hoje?
         
             [1] Depositar
             [2] Sacar
@@ -193,14 +193,14 @@ while True:
         )
 
                 elif voltar_menu == "N":
-                    print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+                    print("Agradecemos por escolher os bancos Chaotix! Volte sempre!")
                     exit()
                 else:
                     print("Resposta inválida! Tente novamente!")
                     break
 
     elif escolha == "0":
-        print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+        print("Agradecemos por escolher os bancos Chaotix! Volte sempre!")
         exit()
     
     else:
@@ -209,7 +209,7 @@ while True:
             
             """
 
-                Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+                Seja bem-vindo ao banco Chaotix, o que gostaria de fazer hoje?
             
                 [1] Depositar
                 [2] Sacar
