@@ -24,37 +24,70 @@ while True:
 
     if escolha == "1":
         adiciona_saldo = float(input(f"Seu saldo atual é de R${saldo:.2f} gostaria de depositar?"))
-        saldo = saldo + adiciona_saldo
-        movimentacoes.append(f"Depósito: R$ {adiciona_saldo:.2f}")
-        print(f"Seu novo saldo é de R${saldo:.2f}.")
-        while True:
-            voltar_menu =input(""" 
-            Gostaria de voltar para a tela inicial?
-            [S]/[N]
-            """)
+        if adiciona_saldo > 0:
+            saldo = saldo + adiciona_saldo
+            movimentacoes.append(f"Depósito: R$ {adiciona_saldo:.2f}")
+            print(f"Seu novo saldo é de R${saldo:.2f}.")
+            while True:
+                voltar_menu =input(""" 
+                Gostaria de voltar para a tela inicial?
+                [S]/[N]
+                """)
 
-            if voltar_menu == "S":
-                escolha = input(
-    
-    """
-        Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
-    
-        [1] Depositar
-        [2] Sacar
-        [3] Ver extrato
-        [0] Sair
-    
-        Insira o número da sua resposta:
-    """
-    )
-                break
-            
-            elif voltar_menu == "N":
-                print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
-                exit()
-            
-            else:
-                print("Resposta inválida! Tente novamente!")
+                if voltar_menu == "S":
+                    escolha = input(
+        
+        """
+            Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+        
+            [1] Depositar
+            [2] Sacar
+            [3] Ver extrato
+            [0] Sair
+        
+            Insira o número da sua resposta:
+        """
+        )
+                    break
+                
+                elif voltar_menu == "N":
+                    print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+                    exit()
+                
+                else:
+                    print("Resposta inválida! Tente novamente!")
+        
+        else:
+            print("Valor inválido!")
+            while True:
+                voltar_menu =input(""" 
+                Gostaria de voltar para a tela inicial?
+                [S]/[N]
+                """)
+
+                if voltar_menu == "S":
+                    escolha = input(
+        
+        """
+            Seja bem-vindo ao banco Chaotix, oque gostaria de fazer hoje?
+        
+            [1] Depositar
+            [2] Sacar
+            [3] Ver extrato
+            [0] Sair
+        
+            Insira o número da sua resposta:
+        """
+        )
+                    break
+                
+                elif voltar_menu == "N":
+                    print("Agradecemos por ecolher os bancos Chaotix! Volte sempre!")
+                    exit()
+                
+                else:
+                    print("Resposta inválida! Tente novamente!")
+        
 
     if escolha == "2":
         remove_saldo = float(input(f"""Seu saldo atual é de R${saldo:.2f} gostaria de sacar? 
